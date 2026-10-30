@@ -69,7 +69,7 @@ jobs:
         with:
           name: plugin-release
           path: dist
-      - uses: jdx/mise-action@v2
+      - uses: jdx/mise-action@8418fedb1110381a0d3ba51a7a415d7c1b884550 # v5
         with:
           install: false
       - name: Verify and exercise released plugin
