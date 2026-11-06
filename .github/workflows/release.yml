@@ -37,7 +37,7 @@ jobs:
           echo "version=$version" >> "$GITHUB_OUTPUT"
           echo "tag=$tag" >> "$GITHUB_OUTPUT"
       - name: Sign packslip
-        uses: jdx/packslip@ddcddd9c8c33977d2d08d5db91caec579da59aab # v1.11.0
+        uses: jdx/packslip@b934a22ba187f1d3928441170b9413c5119360bf # v1.11.2
         with:
           artifacts: dist/vfox-bfs.tar.gz
           manifest: packslip.toml
